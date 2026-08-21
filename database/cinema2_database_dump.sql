@@ -124,7 +124,6 @@ CREATE TABLE `bill_food` (
 
 LOCK TABLES `bill_food` WRITE;
 /*!40000 ALTER TABLE `bill_food` DISABLE KEYS */;
-INSERT INTO `bill_food` VALUES (1,19,1,2,325000),(2,19,10,1,35000),(3,20,1,1,325000),(4,22,1,1,325000),(5,24,1,1,325000);
 /*!40000 ALTER TABLE `bill_food` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -209,7 +208,7 @@ CREATE TABLE `food_item` (
   `status` int DEFAULT '1',
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -218,7 +217,7 @@ CREATE TABLE `food_item` (
 
 LOCK TABLES `food_item` WRITE;
 /*!40000 ALTER TABLE `food_item` DISABLE KEYS */;
-INSERT INTO `food_item` VALUES (1,'Combo BTS Arirang','1 BTS Arirang Popcorn Tin + 1 Bắp ngọt + 1 Nước ngọt 27oz',325000,'https://cdn.galaxycine.vn/media/2024/7/1/bts-arirang-combo_1719827362391.jpg','COMBO',1,'2026-08-21 13:51:11'),(2,'BTS Arirang Concert Edition Popcorn Tin','Bán lẻ merchandise, không bao gồm bắp',275000,'https://cdn.galaxycine.vn/media/2024/7/1/bts-popcorn-tin_1719827389102.jpg','MERCHANDISE',1,'2026-08-21 13:51:11'),(3,'Combo 2 Big Extra Premium','Nhân đôi sự sảng khoái! Combo gồm 1 bắp rang bơ lớn, 2 Pepsi cỡ lớn + 1 snack Premium tuỳ chọn – tiết kiệm hơn 33,000đ!',134000,'https://cdn.galaxycine.vn/media/2023/11/30/combo-2-big-extra_1701334812391.png','COMBO',1,'2026-08-21 13:51:11'),(4,'Snacking Combo 2','1 Bắp ngọt + 2 Nước bất kỳ + 1 Món ăn nhẹ (Gà Karaage / Lạp xưởng / Khoai tây bơ đường)',169000,'https://cdn.galaxycine.vn/media/2023/11/30/snacking-combo-2_1701334839102.png','COMBO',1,'2026-08-21 13:51:11'),(5,'Combo 1 Big Extra Premium','Thỏa mãn cơn thèm với 1 phần bắp rang bơ thơm ngon, 1 Pepsi mát lạnh và 1 gói snack Premium tuỳ chọn!',115000,'https://cdn.galaxycine.vn/media/2023/11/30/combo-1-big-extra_1701334851293.png','COMBO',1,'2026-08-21 13:51:11'),(6,'Teanema Combo 1 Extra','1 Bắp ngọt + 1 Trà Galaxy đậm đà mát lạnh',115000,'https://cdn.galaxycine.vn/media/2023/11/30/teanema-combo_1701334873491.png','COMBO',1,'2026-08-21 13:51:11'),(7,'Combo 3','Chia sẻ niềm vui với bạn bè! Combo 3 gồm 2 bắp rang bơ, 3 Pepsi mát lạnh – tiết kiệm hơn 52,000đ!',149000,'https://cdn.galaxycine.vn/media/2023/11/30/combo-3_1701334891823.png','COMBO',1,'2026-08-21 13:51:11'),(8,'Bắp Rang Bơ Phô Mai 64oz','Bắp rang bơ thơm nức mũi lắc phô mai béo ngậy truyền thống',55000,'https://cdn.galaxycine.vn/media/2023/11/30/popcorn-cheese_1701334912384.png','FOOD',1,'2026-08-21 13:51:11'),(9,'Bắp Rang Bơ Caramen 64oz','Bắp rang bơ giòn rụm phủ caramen ngọt ngào',55000,'https://cdn.galaxycine.vn/media/2023/11/30/popcorn-caramel_1701334931294.png','FOOD',1,'2026-08-21 13:51:11'),(10,'Nước Ngọt Pepsi 32oz','Nước ngọt Pepsi tươi mát lạnh cỡ lớn',35000,'https://cdn.galaxycine.vn/media/2023/11/30/pepsi-cup_1701334958192.png','DRINK',1,'2026-08-21 13:51:11');
+INSERT INTO `food_item` VALUES (1,'Combo BTS Airang','1 BTS Airang Popcorn Tin + 1 Bắp ngọt + 1 Nước ngọt 27oz',325000,'/img/concessions/star-shop-1920x1320-1_1780216891477.jpg','COMBO',1,'2026-08-21 16:21:48'),(2,'BTS Airang Concert Edition Popcorn Tin','Bán lẻ merchandise, không bao gồm bắp',275000,'/img/concessions/star-shop-1920x1320-1_1780216891477.jpg','MERCHANDISE',1,'2026-08-21 16:21:48'),(3,'Combo 3','Chia sẻ niềm vui với bạn bè! Combo 3 gồm 2 bắp rang bơ, 3 Pepsi mát lạnh – tiết kiệm hơn 52,000!',155000,'/img/concessions/co-combo-3_1784089016497.jpg','COMBO',1,'2026-08-21 16:21:48'),(4,'Combo 4','Thêm bạn, thêm vui! Combo 4 mang đến 3 bắp rang bơ, 4 Pepsi mát lạnh – tiết kiệm hơn 95,000!',235000,'/img/concessions/co-combo-4_1784089009439.jpg','COMBO',1,'2026-08-21 16:21:48'),(5,'Combo 1 Big Extra Premium','Thỏa mãn cơn thèm với 1 phần bắp rang bơ thơm ngon, 1 Pepsi mát lạnh và 1 gói snack Premium tùy chọn!',120000,'/img/concessions/co-combo-1-extra-premium_1784088997738.jpg','COMBO',1,'2026-08-21 16:21:48'),(6,'Combo 2 Big Extra Premium','Nhân đôi sự sảng khoái! Combo gồm 1 bắp rang bơ lớn, 2 Pepsi cỡ lớn + 1 snack Premium tùy chọn – tiết kiệm hơn 33,000!',135000,'/img/concessions/co-combo-2-extra-premium_1784089003489.jpg','COMBO',1,'2026-08-21 16:21:48'),(7,'Snacking Combo 2X','1 Bắp ngọt + 2 Nước bất kỳ + 1 Món ăn nhẹ',175000,'/img/concessions/co-snacking-combo-2-_1770279316753.jpg','COMBO',1,'2026-08-21 16:21:48'),(8,'Teanema Combo 1 Extra','1 Bắp ngọt + 1 Trà Galaxy',119000,'/img/concessions/cbo-1-teanema-extra_1787200159593.jpg','COMBO',1,'2026-08-21 16:21:48'),(9,'Combo 1 Ovaltine Extra Premium','1 Bắp ngọt + 1 Ovaltine 22oz + 1 Snack Premium',120000,'/img/concessions/co-combo-1-ovaltine-premium-1_1775376299625.jpg','COMBO',1,'2026-08-21 16:21:48');
 /*!40000 ALTER TABLE `food_item` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -595,4 +594,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-08-21 22:55:22
+-- Dump completed on 2026-08-21 23:21:53
